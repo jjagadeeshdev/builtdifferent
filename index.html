@@ -1,0 +1,513 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Built Different</title>
+  <link rel="icon" href="icon.jpg" />
+  <style>
+    body {
+      background-image: url("6.jpg");
+      background-size: cover;
+      background-attachment: fixed;
+    }
+
+    header {
+      text-align: center;
+
+      h1 {
+        font-family: "Times New Roman", Times, serif;
+        font-size: 55px;
+        color: rgb(247, 82, 82);
+        position: absolute;
+        top: 20px;
+        left: 41.8%;
+      }
+
+      h5 {
+        font-size: 20px;
+        color: rgb(255, 255, 255);
+        position: absolute;
+        top: 10px;
+        left: 41.8%;
+      }
+
+      h6 {
+        font-size: 18px;
+        color: rgb(255, 255, 255);
+        position: absolute;
+        top: 70px;
+        left: 48.7%;
+      }
+    }
+
+    .i1 {
+      background-position: center;
+      background-size: cover;
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+    }
+
+    .navbar {
+      position: sticky;
+      top: 10px;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      margin-top: 150px;
+      margin-left: 230px;
+      margin-right: 230px;
+      background: rgba(255, 0, 0, 0.2);
+      backdrop-filter: blur(8px);
+      border-radius: 20px;
+
+      a {
+        color: rgb(117, 218, 243);
+        text-decoration: none;
+        font-size: 18px;
+        font-weight: bold;
+        padding: 10px 20px;
+        border-radius: 5px;
+        transition: background-color 0.3s ease;
+      }
+
+      a:hover {
+        background-color: rgb(247, 82, 82);
+      }
+    }
+
+    .d12 {
+      font-size: 30px;
+      font-weight: bold;
+      color: rgb(117, 218, 243);
+      text-align: center;
+      margin: 60px;
+      margin-right: 230px;
+      margin-left: 230px;
+      padding: 20px;
+      padding-top: 10px;
+      background: rgba(255, 0, 0, 0.2);
+      backdrop-filter: blur(8px);
+      border-radius: 20px;
+
+      .pp {
+        font-size: 20px;
+        color: rgb(117, 218, 243);
+        text-align: center;
+      }
+    }
+
+    .d1 {
+      position: relative;
+      background: rgba(255, 0, 0, 0.2);
+      backdrop-filter: blur(8px);
+      border-radius: 20px;
+      margin: 20px;
+      margin-right: 230px;
+      margin-left: 230px;
+      padding: 20px;
+
+      .h1 {
+        font-size: 60px;
+        font-weight: bold;
+        color: rgb(117, 218, 243);
+        text-align: center;
+      }
+    }
+
+    .d2 {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+      color: rgb(117, 218, 243);
+      font-size: 20px;
+
+      img {
+        width: 400px;
+        height: 400px;
+        border-radius: 50%;
+        object-fit: cover;
+      }
+    }
+
+    .d3 {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+      color: rgb(117, 218, 243);
+      font-size: 20px;
+
+      img {
+        width: 400px;
+        height: 400px;
+        border-radius: 50%;
+        object-fit: cover;
+      }
+    }
+
+    .d4 {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+      color: rgb(117, 218, 243);
+      font-size: 20px;
+
+      img {
+        width: 400px;
+        height: 400px;
+        border-radius: 50%;
+        object-fit: cover;
+      }
+    }
+
+    .d5 {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+      color: rgb(117, 218, 243);
+      font-size: 20px;
+
+      img {
+        width: 400px;
+        height: 400px;
+        border-radius: 50%;
+        object-fit: cover;
+      }
+    }
+
+    .d6 {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+      color: rgb(117, 218, 243);
+      font-size: 20px;
+
+      img {
+        width: 400px;
+        height: 400px;
+        border-radius: 50%;
+        object-fit: cover;
+      }
+    }
+
+    .d7 {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+      color: rgb(117, 218, 243);
+      font-size: 20px;
+
+      img {
+        width: 400px;
+        height: 400px;
+        border-radius: 50%;
+        object-fit: cover;
+      }
+    }
+
+    .d8 {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+      color: rgb(117, 218, 243);
+      font-size: 20px;
+
+      img {
+        width: 400px;
+        height: 400px;
+        border-radius: 50%;
+        object-fit: cover;
+      }
+    }
+
+    .d9 {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+      color: rgb(117, 218, 243);
+      font-size: 20px;
+
+      img {
+        width: 400px;
+        height: 400px;
+        border-radius: 50%;
+        object-fit: cover;
+      }
+    }
+
+    .d10 {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+      color: rgb(117, 218, 243);
+      font-size: 20px;
+
+      img {
+        width: 400px;
+        height: 400px;
+        border-radius: 50%;
+        object-fit: cover;
+      }
+    }
+
+    .d11 {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+      color: rgb(117, 218, 243);
+      font-size: 20px;
+
+      img {
+        width: 400px;
+        height: 400px;
+        border-radius: 50%;
+        object-fit: cover;
+      }
+    }
+
+    .aa {
+      margin: 20px;
+      margin-right: 230px;
+      margin-left: 230px;
+      padding: 20px;
+      background: rgba(255, 0, 0, 0.2);
+      backdrop-filter: blur(8px);
+      border-radius: 20px;
+      color: rgb(117, 218, 243);
+      font-size: 40px;
+      font-family: cursive;
+    }
+
+    .d13 {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+
+      img {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        object-fit: cover;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <img src="3.jpg" alt="logo" class="i1" />
+    <div class="q1">
+      <h5>THE</h5>
+      <h1>Built Different</h1>
+      <h6>Engineered Without Limits</h6>
+    </div>
+    <nav class="navbar">
+      <a href="jp1.html">About Us</a>
+      <a href="jp2.html">Off Road</a>
+      <a href="jp3.html">On Road</a>
+      <a href="jp4.html">Engine</a>
+      <a href="jp5.html">Modele</a>
+    </nav>
+  </header>
+  <main>
+    <div class="d12">
+      <h1>About</h1>
+      <p>
+        Welcome to Built Different, your trusted destination for everything
+        related to cars. Our platform is designed to help users discover,
+        compare, and choose the right vehicle with confidence and ease.
+      </p>
+      <br />
+      <p class="pp">
+        Tactical & Durable Apparel: DIG tactical gear (e.g., Defender Gen 2
+        pants) uses 3-layer Cordura fabric, ballistic reinforcements, and
+        ergonomic design to create products that "take what others can't,"
+        offering extreme durability and performance.
+      </p>
+      <br />
+      <p class="pp">
+        High-Performance Vehicles: The Land Rover Defender OCTA is marketed
+        with this, emphasizing "extreme capability, commanding power, and a
+        presence built for the toughest terrain".
+      </p>
+      <br />
+      <p class="pp">
+        Advanced Audio Engineering: Brands like NVX and specialized car audio
+        shops (e.g., Saint Nordic) use this to highlight "precision, balance,
+        and detail," manufacturing products that operate without limitations
+        in sound quality.
+      </p>
+      <br />
+      <p class="pp">
+        Physical Infrastructure & Technology: Companies like "Unlimited" are
+        applying AI-native and vertically integrated engineering to overcome
+        the traditional, slow-paced construction industry, focusing on
+        building critical, large-scale infrastructure.
+      </p>
+      <br />
+      <p class="pp">
+        In all these contexts, "Built Different, Engineered Without Limits"
+        signifies a commitment to innovation, quality, and performance that
+        transcends conventional boundaries, appealing to consumers seeking
+        exceptional products and experiences.
+      </p>
+    </div>
+    <div class="d1">
+      <h1 class="h1">most preference cars in the world</h1>
+      <div class="d2">
+        <a href="https://www.ford.com/performance/mustang-gtd/"><img src="o1.jpg" alt="car image" /></a>
+        <p>
+          The Ford Mustang is an American automobile manufactured and marketed
+          by Ford since 1964, as Ford's longest nameplate in continuous
+          production. Currently in its seventh generation, it is the
+          fifth-best selling Ford car nameplate. The namesake of the "pony
+          car" automobile segment, the Mustang was developed as a highly
+          styled line of sporty coupes and convertibles derived from existing
+          model lines, initially distinguished by its pronounced "long hood,
+          short deck" proportions.
+        </p>
+      </div>
+      <div class="d3">
+        <p>
+          The Dodge Challenger is an iconic American muscle car, with the
+          2023-2024 models marking the end of the third generation, featuring
+          5-passenger seating, retro styling, and a lineup ranging from
+          efficient V6s to high-output V8s. Key models include the
+          807-horsepower SRT Super Stock and the 1,025-horsepower Demon
+        </p>
+        <a href="https://www.dodge.com/challenger/srt.html"><img src="o2.jpg" alt="car image" /></a>
+      </div>
+      <div class="d4">
+        <a href="https://www.chevrolet.com/corvette"><img src="o3.jpg" alt="car image" /></a>
+        <p>
+          The Chevrolet Corvette is an iconic American two-seater sports car
+          produced since 1953, currently in its 8th generation (C8). The C8,
+          featuring a revolutionary mid-engine layout, offers superior
+          performance with a 6.2L V8 (Stingray) or a high-revving 5.5L V8
+          (Z06). Key highlights include advanced, driver-focused, tech-forward
+          interiors, a 0-60 mph time of 2.6 seconds (Z06), and a 2026 ZR1 with
+          1,064 horsepower.
+        </p>
+      </div>
+      <div class="d5">
+        <p>
+          The Pontiac Firebird is an American automobile built and produced by
+          Pontiac from the 1967 to 2002 model years. Designed as a pony car to
+          compete with the Ford Mustang, it was introduced on February 23,
+          1967, five months after GM's Chevrolet division's platform-sharing
+          Camaro.
+        </p>
+        <a href="https://www.pontiac.com/firebird"><img src="o4.jpg" alt="car image" /></a>
+      </div>
+      <div class="d6">
+        <a href="https://www.toyota.com/gr-supra/"><img src="o5.jpg" alt="car image" /></a>
+        <p>
+          The Toyota GR Supra (model code J29/DB or A90/A91 for marketing
+          purposes) is a sports car manufactured by Magna Steyr for Toyota
+          since 2019. The fifth-generation Supra, the GR Supra was sold under
+          and developed by Toyota Gazoo Racing (TGR) brand in collaboration
+          with BMW. It is the successor of the A80 Supra, which ceased
+          production in 2002.
+        </p>
+      </div>
+      <div class="d7">
+        <p>
+          MG (Morris Garages) is a historic British car brand, founded in
+          1924, now owned by China's SAIC Motor, known for blending its sporty
+          heritage with modern technology, especially electric vehicles, and
+          popular in markets like India and Europe with models like the
+          Hector, ZS EV, and Comet EV. While retaining British design
+          influence, manufacturing largely occurs in China and other global
+          plants, making it a globally significant brand, particularly in the
+          EV space
+        </p>
+        <a href="https://www.mg.com/"><img src="o6.jpg" alt="car image" /></a>
+      </div>
+      <div class="d8">
+        <a href="https://www.beachcars.com/"><img src="o7.jpg" alt="car image" /></a>
+        <p>
+          Beach cars, including specialized dune buggies and 4WD vehicles, are
+          designed for sand navigation using low tire pressure (15–20 PSI) to
+          stay on top of the surface, as noted by Mazda USA and CarParts.com.
+          Key features include 4WD/AWD for traction, high ground clearance,
+          and recovery gear like shovels. Essential tips for beach driving
+          include checking tides, maintaining momentum, and avoiding sudden
+          stops.
+        </p>
+      </div>
+      <div class="d9">
+        <p>
+          The first vehicle in the Hummer range was the Hummer H1, based on
+          the Humvee. Released for the civilian market in 1992, this vehicle
+          was designed by American Motors' AM General subsidiary to meet U.S.
+          Military specifications that were issued in 1979.[38] By 1982,
+          Renault (which was partially owned by the French government) took
+          controlling interest in AMC, and the AM General division was sold in
+          1983 to Ling-Temco-Vought (LTV), because US regulations barred
+          ownership of defense contractors by foreign governments.[39]
+          American Motors itself was acquired by Chrysler in 1987.[40]
+          Production of H1 civilian versions continued throughout 2006.
+        </p>
+        <a href="https://www.hummer.com/"><img src="o8.jpg" alt="car image" /></a>
+      </div>
+      <div class="d10">
+        <a href="https://www.lamborghini.com/en-us/"><img src="o9.jpg" alt="car image" /></a>
+        <p>
+          Founded in 1963 by Ferruccio Lamborghini in Italy, Automobili
+          Lamborghini is a premier manufacturer of high-performance luxury
+          supercars and SUVs, renowned for its V10/V12 engines, angular
+          design, and iconic scissor doors. The current lineup includes
+          electrified models like the Revuelto V12 hybrid, Temerario V8
+          hybrid, and the Urus Super SUV.
+        </p>
+      </div>
+      <div class="d11">
+        <p>
+          The Pagani Huayra R is a limited-edition (30 units), track-only
+          hypercar powered by a bespoke 6.0L naturally aspirated V12-R engine,
+          producing \(850\text{\ hp}\) and \(750\text{\ Nm}\) of torque.
+          Developed in collaboration with HWA AG, it features a
+          carbon-titanium monocoque, a 6-speed sequential gearbox, and
+          advanced aerodynamics. The Huayra R can accelerate from 0 to 100
+          km/h in 2.5 seconds, with a top speed exceeding 370 km/h, making it
+          one of the most extreme track-focused hypercars ever created.
+        </p>
+        <a href="https://www.pagani.com/huayra-r/"><img src="o10.jpg" alt="car image" /></a>
+      </div>
+    </div>
+    <br /><br /><br /><br />
+  </main>
+  <article class="aa">
+    <p>
+      "Built Different, Engineered Without Limits" represents a philosophy of
+      breaking conventional, physical, or creative boundaries through precise,
+      innovative design. Based on recent, high-performance applications, this
+      phrase is used in several contexts:
+    </p>
+  </article>
+  <br /><br /><br /><br />
+  <footer>
+    <div class="d13">
+      <div>
+        <a href="https://www.instagram.com/car/"><img src="insta.jpg" alt="Footer Logo" /></a>
+      </div>
+      <div>
+        <a href="https://www.facebook.com/car/"><img src="facebook.jpg" alt="Footer Logo" /></a>
+      </div>
+      <div>
+        <a href="https://x.com/car"><img src="x.jpg" alt="Footer Logo" /></a>
+      </div>
+      <div>
+        <a href="https://www.youtube.com/watch?v=pyAkHBjNLS8"><img src="youtube.jpg" alt="Footer Logo" /></a>
+      </div>
+      <div>
+        <a href="https://t.me/car"><img src="telegram.jpg" alt="Footer Logo" /></a>
+      </div>
+    </div>
+    <br /><br /><br /><br /><br /><br />
+  </footer>
+</body>
+
+</html>
